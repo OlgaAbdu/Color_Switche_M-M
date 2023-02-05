@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css?family=Satisfy&display=swap");
+
+body {
+  font-family: Satisfy, sans-serif;
+  text-align: center;
+  margin-top: 0%;
+  margin-right: 0%;
+  margin-left: 0%;
+  font-size: 20px;
+}
+footer {
+  text-align: center;
+  margin: 100px auto 100px;
+  bottom: 0;
+}
+
+.elements {
+  text-align: center;
+  margin: 200px auto 200px;
+
+  animation: elements 2s ease 0s infinite reverse forwards;
+}
+
+button {
+  height: 100px;
+  width: 100px;
+  border-radius: 55%;
+  border: solid black;
+}
+
+.red {
+  background: red;
+  animation: red 2s ease 0s 1 normal forwards;
+  box-shadow: 9px 16px 10px 1px #000;
+}
+.orange {
+  background-color: orange;
+  animation: orange 2s ease 0s 1 normal forwards;
+  box-shadow: 9px 16px 10px 1px #000;
+}
+.yellow {
+  background: yellow;
+  animation: yellow 2s ease 0s 1 normal forwards;
+  box-shadow: 9px 16px 10px 1px #000;
+}
+.green {
+  background: green;
+  animation: green 2s ease 0s 1 normal forwards;
+  box-shadow: 9px 16px 10px 1px #000;
+}
+.blue {
+  background: blue;
+  animation: blue 2s ease 0s 1 normal forwards;
+  box-shadow: 9px 16px 10px 1px #000;
+}
+.brown {
+  background: brown;
+  animation: brown 2s ease 0s 1 normal forwards;
+  box-shadow: 9px 16px 10px 1px #000;
+}
+.violet {
+  background: violet;
+  animation: violet 2s ease 0s 1 normal forwards;
+  box-shadow: 9px 16px 10px 1px #000;
+}
+
+@keyframes elements {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.1);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
